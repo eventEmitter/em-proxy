@@ -1,4 +1,4 @@
 
 
 
-	module.exports = require('./lib/EmProxy');
+	module.exports = require('./lib/Proxy');

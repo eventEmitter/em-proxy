@@ -18,11 +18,10 @@
     , "dependencies": {
           "ee-class"                : "1.0.x"
         , "ee-log"                  : "0.2.x"
-        , "node-http-proxy"         : "1.1.x"
+        , "http-proxy"              : "1.1.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
-        , "ee-webservice"           : "0.1.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["ee", "em", "proxy"]
