@@ -1,0 +1,32 @@
+{
+      "name"                        : "em-proxy"
+    , "description"                 : "proxy middleware for ee-webservice. sends requests to another host."
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/em-proxy"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/em-proxy.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/em-proxy/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-log"                  : "0.2.x"
+        , "node-http-proxy"         : "1.1.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+        , "ee-webservice"           : "0.1.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["ee", "em", "proxy"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
