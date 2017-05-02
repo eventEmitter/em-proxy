@@ -1,5 +1,7 @@
 # em-proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/em-proxy.svg)](https://greenkeeper.io/)
+
 proxy middleware for ee-webservice. sends requests to another host.
 
 ## installation
